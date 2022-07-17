@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [banking]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="TestPack.Test1">
+        <methods>
+          <include name="clickAccount"/>
+          <include name="clickOpen"/>
+          <include name="login"/>
+          <include name="logOut"/>
+          <include name="clearObj"/>
+          <include name="closeBrowser"/>
+          <include name="createPomObj"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- TestPack.Test1 -->
+      <class name="TestPack.Test2">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="launch"/>
+          <include name="login"/>
+          <include name="logOut"/>
+          <include name="clickOpen"/>
+          <include name="clearObj"/>
+          <include name="closeBrowser"/>
+          <include name="clickAccount"/>
+        </methods>
+      </class> <!-- TestPack.Test2 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="TestPack.Test1">
+        <methods>
+          <include name="clickAccount"/>
+          <include name="clickOpen"/>
+          <include name="login"/>
+          <include name="logOut"/>
+          <include name="clearObj"/>
+          <include name="closeBrowser"/>
+          <include name="createPomObj"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- TestPack.Test1 -->
+      <class name="TestPack.Test2">
+        <methods>
+          <include name="launch"/>
+          <include name="launchBrowser"/>
+          <include name="login"/>
+          <include name="logOut"/>
+          <include name="clickOpen"/>
+          <include name="clearObj"/>
+          <include name="closeBrowser"/>
+          <include name="clickAccount"/>
+        </methods>
+      </class> <!-- TestPack.Test2 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [banking] -->

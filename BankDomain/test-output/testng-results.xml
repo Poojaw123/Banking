@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-16T23:49:57 IST" name="banking" finished-at="2022-07-16T23:50:26 IST" duration-ms="29735">
+    <groups>
+    </groups>
+    <test started-at="2022-07-16T23:49:57 IST" name="ChromeTest" finished-at="2022-07-16T23:50:09 IST" duration-ms="11849">
+      <class name="TestPack.Test1">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPack.Test1@3bb9a3ff]" started-at="2022-07-16T23:49:57 IST" name="launchBrowser" finished-at="2022-07-16T23:49:58 IST" duration-ms="1382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPomObj()[pri:0, instance:TestPack.Test1@3bb9a3ff]" started-at="2022-07-16T23:49:59 IST" name="createPomObj" finished-at="2022-07-16T23:49:59 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObj -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPack.Test1@3bb9a3ff]" started-at="2022-07-16T23:49:59 IST" name="login" finished-at="2022-07-16T23:50:04 IST" duration-ms="5450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickAccount()[pri:0, instance:TestPack.Test1@3bb9a3ff]" started-at="2022-07-16T23:50:04 IST" name="clickAccount" finished-at="2022-07-16T23:50:05 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAccount -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:TestPack.Test1@3bb9a3ff]" started-at="2022-07-16T23:50:05 IST" name="logOut" finished-at="2022-07-16T23:50:05 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPack.Test1@3bb9a3ff]" started-at="2022-07-16T23:50:05 IST" name="login" finished-at="2022-07-16T23:50:07 IST" duration-ms="1573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickOpen()[pri:0, instance:TestPack.Test1@3bb9a3ff]" started-at="2022-07-16T23:50:07 IST" name="clickOpen" finished-at="2022-07-16T23:50:08 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOpen -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:TestPack.Test1@3bb9a3ff]" started-at="2022-07-16T23:50:08 IST" name="logOut" finished-at="2022-07-16T23:50:08 IST" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="clearObj()[pri:0, instance:TestPack.Test1@3bb9a3ff]" started-at="2022-07-16T23:50:08 IST" name="clearObj" finished-at="2022-07-16T23:50:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObj -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.Test1@3bb9a3ff]" started-at="2022-07-16T23:50:08 IST" name="closeBrowser" finished-at="2022-07-16T23:50:08 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.Test1 -->
+      <class name="TestPack.Test2">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPack.Test2@359f7cdf]" started-at="2022-07-16T23:49:58 IST" name="launchBrowser" finished-at="2022-07-16T23:49:59 IST" duration-ms="695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:TestPack.Test2@359f7cdf]" started-at="2022-07-16T23:49:59 IST" name="launch" finished-at="2022-07-16T23:49:59 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPack.Test2@359f7cdf]" started-at="2022-07-16T23:49:59 IST" name="login" finished-at="2022-07-16T23:50:03 IST" duration-ms="3723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickAccount()[pri:0, instance:TestPack.Test2@359f7cdf]" started-at="2022-07-16T23:50:03 IST" name="clickAccount" finished-at="2022-07-16T23:50:03 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAccount -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:TestPack.Test2@359f7cdf]" started-at="2022-07-16T23:50:03 IST" name="logOut" finished-at="2022-07-16T23:50:05 IST" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPack.Test2@359f7cdf]" started-at="2022-07-16T23:50:05 IST" name="login" finished-at="2022-07-16T23:50:06 IST" duration-ms="1599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickOpen()[pri:0, instance:TestPack.Test2@359f7cdf]" started-at="2022-07-16T23:50:06 IST" name="clickOpen" finished-at="2022-07-16T23:50:07 IST" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOpen -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:TestPack.Test2@359f7cdf]" started-at="2022-07-16T23:50:07 IST" name="logOut" finished-at="2022-07-16T23:50:08 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="clearObj()[pri:0, instance:TestPack.Test2@359f7cdf]" started-at="2022-07-16T23:50:08 IST" name="clearObj" finished-at="2022-07-16T23:50:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObj -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.Test2@359f7cdf]" started-at="2022-07-16T23:50:08 IST" name="closeBrowser" finished-at="2022-07-16T23:50:09 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.Test2 -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-07-16T23:50:09 IST" name="FirefoxTest" finished-at="2022-07-16T23:50:26 IST" duration-ms="17794">
+      <class name="TestPack.Test1">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPack.Test1@49139829]" started-at="2022-07-16T23:50:09 IST" name="launchBrowser" finished-at="2022-07-16T23:50:12 IST" duration-ms="3792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPomObj()[pri:0, instance:TestPack.Test1@49139829]" started-at="2022-07-16T23:50:16 IST" name="createPomObj" finished-at="2022-07-16T23:50:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObj -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPack.Test1@49139829]" started-at="2022-07-16T23:50:16 IST" name="login" finished-at="2022-07-16T23:50:20 IST" duration-ms="4433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickAccount()[pri:0, instance:TestPack.Test1@49139829]" started-at="2022-07-16T23:50:20 IST" name="clickAccount" finished-at="2022-07-16T23:50:21 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAccount -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:TestPack.Test1@49139829]" started-at="2022-07-16T23:50:21 IST" name="logOut" finished-at="2022-07-16T23:50:21 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPack.Test1@49139829]" started-at="2022-07-16T23:50:21 IST" name="login" finished-at="2022-07-16T23:50:23 IST" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickOpen()[pri:0, instance:TestPack.Test1@49139829]" started-at="2022-07-16T23:50:23 IST" name="clickOpen" finished-at="2022-07-16T23:50:23 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOpen -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:TestPack.Test1@49139829]" started-at="2022-07-16T23:50:23 IST" name="logOut" finished-at="2022-07-16T23:50:24 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="clearObj()[pri:0, instance:TestPack.Test1@49139829]" started-at="2022-07-16T23:50:24 IST" name="clearObj" finished-at="2022-07-16T23:50:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObj -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.Test1@49139829]" started-at="2022-07-16T23:50:25 IST" name="closeBrowser" finished-at="2022-07-16T23:50:26 IST" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.Test1 -->
+      <class name="TestPack.Test2">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestPack.Test2@9597028]" started-at="2022-07-16T23:50:12 IST" name="launchBrowser" finished-at="2022-07-16T23:50:16 IST" duration-ms="3193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:TestPack.Test2@9597028]" started-at="2022-07-16T23:50:16 IST" name="launch" finished-at="2022-07-16T23:50:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPack.Test2@9597028]" started-at="2022-07-16T23:50:16 IST" name="login" finished-at="2022-07-16T23:50:20 IST" duration-ms="4248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickAccount()[pri:0, instance:TestPack.Test2@9597028]" started-at="2022-07-16T23:50:20 IST" name="clickAccount" finished-at="2022-07-16T23:50:21 IST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAccount -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:TestPack.Test2@9597028]" started-at="2022-07-16T23:50:21 IST" name="logOut" finished-at="2022-07-16T23:50:22 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestPack.Test2@9597028]" started-at="2022-07-16T23:50:22 IST" name="login" finished-at="2022-07-16T23:50:23 IST" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickOpen()[pri:0, instance:TestPack.Test2@9597028]" started-at="2022-07-16T23:50:23 IST" name="clickOpen" finished-at="2022-07-16T23:50:24 IST" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOpen -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:TestPack.Test2@9597028]" started-at="2022-07-16T23:50:24 IST" name="logOut" finished-at="2022-07-16T23:50:25 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="clearObj()[pri:0, instance:TestPack.Test2@9597028]" started-at="2022-07-16T23:50:25 IST" name="clearObj" finished-at="2022-07-16T23:50:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObj -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.Test2@9597028]" started-at="2022-07-16T23:50:26 IST" name="closeBrowser" finished-at="2022-07-16T23:50:26 IST" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.Test2 -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- banking -->
+</testng-results>
