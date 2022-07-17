@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Header 
 {
+	//Pom classes for Banking domain
 	@FindBy (xpath="//a[text()='Open New Account']")
 	WebElement open;
 	
